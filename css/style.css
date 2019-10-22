@@ -1,0 +1,156 @@
+@font-face {
+	font-family: 'Museo Sans Cyrl 100';
+	src: url('../fonts/museosanscyrl-webfont.woff2') format('woff2'),
+		  url('../fonts/museosanscyrl-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+
+}
+body{
+font-family: 'Museo Sans Cyrl 100', serif;
+background: url(../img/background.png);
+background-position: 50%;
+background-size: cover;
+color: #8d9298;
+
+}
+
+/* Layout */
+.ba-container{
+padding-left: 20px;
+padding-right: 20px;
+max-width: 775px;
+	
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+.ba-product{
+background: #111a28;
+position: relative;
+border-radius: 10px;
+padding: 46px 53px 45px 55px;
+display: flex;
+align-items: center;
+margin: 110px 20px 0;
+}
+.ba-product__brand{
+position: absolute;
+left: 19px;	
+top: 25px;
+}
+.ba-slider{
+width: 60%;
+margin-top: 50px;
+}
+.ba-product__view{
+display: flex;
+margin-bottom: 15px;
+align-items: flex-end;
+justify-content: center;
+margin-top: 70px;
+}
+.ba-product__view + .ba-product__view{
+margin-left: 7px;
+}
+.ba-product__info{
+display: flex;
+flex-direction: column;
+width: 40%;
+color: #4c525d;
+margin-left: 80px;
+font-family: 'Museo Sans Cyrl 100', serif;
+}
+.ba-product__title{
+font-weight: 100;
+font-size: 24px;
+text-align: left;
+color: #fff;
+margin-top: 10;
+
+}
+.ba-product__subtitle{
+	font-weight: 100;
+	font-size: 14px;
+	text-align: left;
+	margin-top: 0px;
+	
+}
+.ba-rating__stars{
+	line-height: 12px;
+	
+}
+.ba-rating__stars span{
+	color: #f7bf16;
+}
+.ba-product__options{
+	display: flex;
+	margin-bottom: 30px;
+	
+}
+.ba-product__size, .ba-product__quantiti{
+background-color: #111a28;
+border: 1px solid #4c525d;
+color: #4c525d;
+padding: 0 10px;
+min-height: 32px;
+line-height: 31px;
+}
+.ba-product__size + .ba-product__quantiti{
+	margin-left: 3px;
+}
+.ba-button{
+	border: 1px solid #4c525d;
+	text-decoration: none;
+	color: #4c525d;
+	padding: 0 60px;
+	min-height: 40px;
+	line-height: 40px;
+	text-align: center;
+	background: #202835;
+
+}
+.ba-button:hover{
+background: #111a28;;
+}
+
