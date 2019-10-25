@@ -81,12 +81,10 @@ top: 25px;
 }
 .ba-slider{
 width: 60%;
-margin-top: 50px;
+margin-top: 80px;
 }
 .ba-product__view{
 display: flex;
-margin-bottom: 15px;
-align-items: flex-end;
 justify-content: center;
 margin-top: 70px;
 }
@@ -98,7 +96,7 @@ display: flex;
 flex-direction: column;
 width: 40%;
 color: #4c525d;
-margin-left: 80px;
+margin-left: 90px;
 font-family: 'Museo Sans Cyrl 100', serif;
 }
 .ba-product__title{
@@ -143,11 +141,13 @@ line-height: 31px;
 	border: 1px solid #4c525d;
 	text-decoration: none;
 	color: #4c525d;
-	padding: 0 60px;
-	min-height: 40px;
+	padding: 0 30px;
+	min-height: 30px;
+	min-width: 80px;
 	line-height: 40px;
 	text-align: center;
 	background: #202835;
+	
 
 }
 .ba-button:hover{
